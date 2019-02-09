@@ -2,11 +2,13 @@ module.exports = {
   pluginOptions: {
     s3Deploy: {
       registry: undefined,
-      awsProfile: 'default',
+      awsProfile: 'matt-linux',
       region: 'ca-central-1',
       bucket: 'isthisinspace',
-      createBucket: true,
-      staticHosting: false,
+      createBucket: false,
+      staticHosting: true,
+      staticIndexPage: 'index.html',
+      staticErrorPage: 'index.html',
       assetPath: 'dist',
       assetMatch: '**',
       deployPath: '/',
