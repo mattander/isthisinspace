@@ -1,15 +1,12 @@
 <template>
-  <div class="home">
-    <p>This is the home page</p>
-    <div class="alert alert-success">
-      Bootstrap works
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 offset-md-2">TEST</div>
-      </div>
-    </div>
-  </div>
+  <main class="home">
+    <section class="container">
+      <h1>Look for things in space</h1>
+      <p class="text-green">
+        {{loaded ? 'loaded' : null}}
+      </p>
+    </section>
+  </main>
 </template>
 
 <script>
@@ -17,6 +14,14 @@
 
 export default {
   name: "home",
-  components: {}
+  components: {},
+  computed: {
+    loaded() {
+      return this.$store.getters.isLoaded;
+    }
+  },
+  mounted() {
+    this.$store.dispatch("getSpacexData");
+  }
 };
 </script>

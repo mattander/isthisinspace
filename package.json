@@ -11,6 +11,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.15.0",
@@ -50,7 +51,9 @@
     ],
     "rules": {
       "quotes": 0,
-      "semi": 0
+      "semi": 0,
+      "space-before-function-paren": 0,
+      "eol-last": 0
     },
     "parserOptions": {
       "parser": "babel-eslint"

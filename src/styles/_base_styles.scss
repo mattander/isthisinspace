@@ -1,1 +1,18 @@
 // Base stylesheet
+
+footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  color: $colour-text-light;
+
+  &.footer_fixed-to-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+  }
+}
+
+.text-green {
+  color: green;
+}
