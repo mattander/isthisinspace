@@ -19,5 +19,16 @@ module.exports = {
       uploadConcurrency: 5,
       pluginVersion: '3.0.0'
     }
+  },
+
+  publicPath: undefined,
+  outputDir: undefined,
+  assetsDir: undefined,
+  runtimeCompiler: undefined,
+  productionSourceMap: undefined,
+  parallel: undefined,
+
+  css: {
+    sourceMap: true
   }
 }

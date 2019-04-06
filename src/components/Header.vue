@@ -1,6 +1,14 @@
 <template>
   <header>
-    <h2>Header</h2>
+    <nav class="navbar">
+      <div class="container">
+        <router-link
+          class="brand"
+          to="/"
+        >
+          itis?</router-link>
+      </div>
+    </nav>
   </header>
 </template>
 
@@ -9,6 +17,3 @@ export default {
   name: "Header"
 };
 </script>
-
-<style>
-</style>

@@ -1,0 +1,18 @@
+// Nav partial
+
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 40px;
+  padding: 20px 0;
+  background-color: $colour-bg-dark;
+  color: $colour-text-light;
+  border-bottom: 1px solid $colour-bg-dark-border;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.75);
+
+  .brand {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: $colour-text-light;
+  }
+}

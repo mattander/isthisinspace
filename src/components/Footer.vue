@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <h2>Footer</h2>
+    <div class="footer-copyright">&copy; 2019 Matt Anderson</div>
   </footer>
 </template>
 
