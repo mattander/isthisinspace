@@ -3,8 +3,8 @@ module.exports = {
     s3Deploy: {
       registry: undefined,
       awsProfile: 'matt-linux',
-      region: 'ca-central-1',
-      bucket: 'isthisinspace',
+      region: 'us-east-1',
+      bucket: 'isthisin.space',
       createBucket: false,
       staticHosting: true,
       staticIndexPage: 'index.html',
