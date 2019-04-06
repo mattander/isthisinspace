@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <div class="alert alert-success">
+      Bootstrap works.
+    </div>
     <p>This app isn't started yet, but i'll get started soon.</p>
     <p>
       For a guide and recipes on how to configure / customize this project,
